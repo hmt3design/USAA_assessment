@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #4d7abc;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*### Media Query - to be fixed ###*/
+
+/*@media only screen and (max-width: 570px) {*/
+/*!* For mobile phones: *!*/
+/*[class*="col-"] {*/
+/*width: 100%;*/
+/*}*/
+/*}*/
+
+/*### Header elements ###*/
+
+header {
+    background: url("../images/recycle-back.png") #4071b6 no-repeat;
+    height: 450px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.menu {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    font-size: small;
+}
+
+#logo {
+    padding-bottom: 20px;
+}
+
+#header-intro {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+/*### Form ###*/
+
+.form-district {
+    text-align: center;
+}
+
+.form-fields {
+    color: #4071b6;
+    background-color: #004b8e;
+    border-radius: .5em;
+    border: 0;
+    padding: 1em 0em 1em .5em;
+    width: 15em;
+    margin-right: 1em;
+}
+
+input::placeholder {
+    color: #4071b6;
+}
+
+form button {
+    color: #4071b6;
+    background-color: #fff;
+    border-radius: .5em;
+    border: 0;
+    padding: 1em 0em 1em .5em;
+    width: 10em;
+    margin-right: 1em;
+}
+
+.sign-up {
+    color: #fff;
+    text-align: center;
+}
+
+/*### Recycle logo ###*/
+
+#recycle-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*### Counter box ### */
+
+.counter-desc {
+    text-align: center;
+    color: white;
+}
+
+.counter {
+    margin: 0;
+    padding: 0;
+    font-size: 6em;
+    font-weight: 700;
+    text-align: center;
+    line-height: .5em;
+    color: #5affa8;
+}
+
+/* ### District boxes* ### */
+
+.district-box {
+    color: #004b8e;
+    background-color: #4071b6;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h3 {
+    color: white;
+}
+
+span.pledges {
+    color: white;
+}
